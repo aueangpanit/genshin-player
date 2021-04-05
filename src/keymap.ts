@@ -1,0 +1,23 @@
+export const keymap: { [note: string]: string } = {
+  C0: 'z',
+  D0: 'x',
+  E0: 'c',
+  F0: 'v',
+  G0: 'b',
+  A0: 'n',
+  B0: 'm',
+  C1: 'a',
+  D1: 's',
+  E1: 'd',
+  F1: 'f',
+  G1: 'g',
+  A1: 'h',
+  B1: 'j',
+  C2: 'q',
+  D2: 'w',
+  E2: 'e',
+  F2: 'r',
+  G2: 't',
+  A2: 'y',
+  B2: 'u'
+}

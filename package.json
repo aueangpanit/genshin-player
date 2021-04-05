@@ -1,0 +1,32 @@
+{
+  "name": "genshin-player",
+  "version": "1.0.0",
+  "description": "Windsong Lyre (in game item) player. Simply choose a midi file to play on the Lyre (the song has to be within range, in the C major key with no accidental notes)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aueangpanit/genshin-player.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build tsconfig.json",
+    "prepublish": "npm run build",
+    "start": "npm run build && node dist/index.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aueangpanit/genshin-player/issues"
+  },
+  "homepage": "https://github.com/aueangpanit/genshin-player#readme",
+  "dependencies": {
+    "@nut-tree/nut-js": "^1.6.0",
+    "midi-file": "^1.1.2",
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  }
+}
